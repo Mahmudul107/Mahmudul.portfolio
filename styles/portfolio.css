@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    padding-top: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -82,11 +82,13 @@ main{
     background: #FFF8F3;
     border-radius: 50px;
     padding: 150px 30px;
+    font-weight: 700;
+    font-size: 35px;
 }
 .section-title{
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .section-description{
     color: #757575;
@@ -141,4 +143,37 @@ main{
 
 .skill-description{
     color: #757575
+}
+
+/* resume section */
+
+.resume-content{
+    display: flex;
+    gap: 24PX;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747; 
+    margin-bottom: 10px; 
+}
+.resume-item{
+    margin-top: 30PX;
+    margin-bottom: 30px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
